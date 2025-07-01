@@ -1,7 +1,3 @@
-a=[1,2,6,7,3,4]
-max=a[0]
-for i in range(len(a)):
-	if (a[i] > max):
-		max=a[i]
-print(max)
-	
+a=[100,200,300,267,600]
+p=a.sort()
+print(a[-2])
